@@ -28,7 +28,7 @@ body {
 	width: 90%;
 	max-width: 1200px;
     background-size: cover;
-    background-image: url('../img/fondo2.jpg');
+    background-image: url('../images/fondo2.jpg');
     background-position:center;
 	margin-left: auto; 
 	margin-right: auto;
@@ -77,7 +77,7 @@ body {
 }
 
 .contenido-descripcion {
-    width: 60%;
+    width: 80%;
     display: flex;
     height: 100%;
     align-items: center;
@@ -86,6 +86,7 @@ body {
 .contenido-descripcion .titulo {
     text-transform: uppercase;
     letter-spacing: 5px;
+    
 }
 
 .contenido-descripcion .titulo span:first-child {
@@ -179,8 +180,6 @@ body {
     transition: 1s;
     transition-delay: 0.75s;
 }
-
-
 
 
 /*neon2*/
@@ -323,6 +322,83 @@ body {
     transition: 1s;
     transition-delay: 0.75s;
 }
+
+
+
+/*btnneon4*/
+
+.btn-neon4{
+    position: relative;
+    display: block;
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.1s;
+    width: 900px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.btn-neon4:hover{
+    background: #e76e3e;
+    box-shadow: 0 0 10px #e76e3e, 0 0 40px #e76e3e, 0 0 80px #e76e3e;
+   /* transition-delay: .1s;*/
+ }
+.btn-neon4 span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#e76e3e);
+ }
+ .btn-neon4:hover #span1{
+    left: 100%;
+    /*transition: .1s;*/
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#e76e3e);
+}
+ .btn-neon4:hover #span3{
+    right: 100%;
+   /* transition: .1s;
+    transition-delay: .1s;*/
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#e76e3e);
+}
+.btn-neon4:hover #span2{
+    top: 100%;
+    /*transition: .1s;
+    transition-delay: 0.1s;*/
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#e76e3e);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    /*transition: .1s;
+    transition-delay: .1s;*/
+}
+
 
 @keyframes parpadeo  {
     0%, 41%, 45%, 47%, 49.5%, 100%  { 
