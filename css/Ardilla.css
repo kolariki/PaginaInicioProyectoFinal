@@ -1,0 +1,90 @@
+* {
+  font-family: verdana;
+  padding: 8px;
+  margin: 5px;
+}
+
+#titulo {
+  background-color: yellow;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#bloque-1 {
+  background-color: lightgreen;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+#bloque-2 {
+  background-color: yellowgreen;
+  text-align: right;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+#bloque-3 {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  text-align: center;
+}
+
+#imagen-1 {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#imagen-1:hover {
+    transition:all .3s ease-in-out;
+    filter: saturate(180%);
+}
+
+#imagen-vol {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#imagen-vol:hover {
+    transition:all .3s ease-in-out;
+    filter: saturate(180%);
+}
+
+#imagen-2 {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#imagen-2:hover {
+    transition:all .3s ease-in-out;
+    filter: saturate(180%);
+}
+
+#imagen-3 {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#imagen-3:hover {
+    transition:all .3s ease-in-out;
+    filter: saturate(180%);
+}
+
+div[class*="texto"] {
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  display: inline-block;
+}
