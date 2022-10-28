@@ -27,11 +27,12 @@ img {
 }
 p {
 	color: black;
-	font-size: 1.4rem;
+	font-size: 2rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
-	font-weight: 300;
+	font-weight: bold;
 	letter-spacing: 0.05rem;
+	text-align: justify;
 }
 .section-title {
 	font-size: 4rem;
