@@ -345,7 +345,7 @@ body {
 .btn-neon4:hover{
     background: #e76e3e;
     box-shadow: 0 0 10px #e76e3e, 0 0 40px #e76e3e, 0 0 80px #e76e3e;
-   /* transition-delay: .1s;*/
+    transition-delay: .1s;
  }
 .btn-neon4 span{
     position: absolute;
